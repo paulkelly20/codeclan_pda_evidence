@@ -32,7 +32,7 @@ class CardGame
 end
 end
 
-# total hasn't assigned a value and no end to end class and added string interpolation
+# total hasn't assigned a value and no end to end class and added string interpolation and shouldnt be a self method
 def self.cards_total(cards)
   total
   for card in cards
